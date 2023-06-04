@@ -1,0 +1,133 @@
+.embed-responsive {
+    position: relative;
+    width:100%;
+    height: 0;
+    padding-top: 56.25%;
+
+    &-item{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+      }
+  }
+
+.animate-word{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__quotes{
+        position: relative;
+        &:before{   
+            content: '';
+            width: 85px;
+            height: 74px;
+            position: absolute;
+            top: -7rem;
+            left: -4rem;
+            background-repeat: no-repeat;
+            background-image: url(../images/left-quote.png);
+            background-size: contain;
+        }
+        &:after{
+            content: '"';
+            position: absolute;
+            bottom: -50px;
+            right: 0;
+            width: 85px;
+            height: 74px;
+            background-repeat: no-repeat;
+            background-image: url(../images/right-quote.png);
+            background-size: contain;
+        }
+    }
+
+    &__header {
+        white-space: nowrap;
+       overflow: hidden;
+       position: relative;
+       height: 12rem;
+       min-width: 52rem;
+     }
+
+     &__message {
+        color: $color-black;
+        display: block;
+        font-weight: 900;
+        overflow: hidden;
+        position: absolute;
+        left: 0px;
+        animation: openclose 10s ease-in-out infinite;
+      }
+
+      &__word1, &__word2, &__word3 {
+        font-size:9.2rem;
+      }
+}
+
+  
+  @keyframes openclose {
+    0% {
+      top: 0rem;
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    15% {
+      width: 100%;
+    }
+    30% {
+       width: 100%;
+    }
+    33% {
+       width: 0;
+    }
+    35% {
+        top: 0rem;
+       width: 0;
+    }
+    38% {
+      top: -12rem;
+      
+    }
+    48% {
+      top: -12rem;
+      width: 100%;
+    }
+    62% {
+      top: -12rem;
+      width: 100%;
+    }
+    66% {
+      top: -12rem;
+      width: 0;
+      text-indent: 0;
+    }
+    71% {
+      top: -22rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    86% {
+      top: -22rem;
+      width: 100%;
+    }
+    95% {
+      top: -22rem;
+      width: 100%;
+    }
+    98% {
+      top: -22rem;
+      width: 0;
+      text-indent: 5px;
+    }
+    100% {
+      top: 0;
+      width: 0;
+      text-indent: 0;
+    }
+  }

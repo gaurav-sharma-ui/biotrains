@@ -4,10 +4,11 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-			href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-			rel="stylesheet"
-		/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!--- Biotrains Google fonts --->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;500;600;700;900&display=swap" rel="stylesheet">
 		 
         <link rel="stylesheet" href="css/style.css">
         <script type="module" src="js/bootstrap.bundle.min.js"></script>
@@ -18,48 +19,108 @@
 	</head>
     
 	<body>
+       <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+          <div class="container">
+            <a class="navbar-brand" href="index">
+              <img src="images/biotrains-logo.png" alt="biotrains logo"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Career</a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About Us</a>
+                </li> 
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    
+      <main>
+        <div class="container mt-7">
+          <div class="row">
+            <div class="col">
+              <div class="embed-responsive">
+                <video class="embed-responsive-item" autoplay="" loop="" playsinline="" id="video-background" muted="">
+                  <source src="video/biotrains-video.mp4" type="video/mp4">
+                </video>
+                <!-- <iframe class="embed-responsive-item" src="video/biotrains-video.mp4" allowfullscreen autoplay></iframe> -->
+              </div>        
+            </div>
+            <div class="col animate-word"> 
+              <div class="animate-word__quotes">    
+                <h1 class="animate-word__header">
+                  <div class="animate-word__message">
+                    <div class="animate-word__word1">Connect.</div>
+                    <div class="animate-word__word2">Collaborate.</div>
+                    <div class="animate-word__word3">Evolve.</div>
+                  </div>
+                </h1>
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <section class="about-biotrain pt-10 pb-2">
+          <div class="container">
+            <div class="row">
+              <div class="col d-flex align-items-center">
+                <div class="content-container">
+                  <h2 class="sectionHeader px-5 pt-0 pb-5">Transform Connections to Business Relations for Healthier World</h2>
+                  <p class="sectionPara px-5">Biotrains is a global Leader in business Events , Market  Intelligence, digital marketing and consulting for pharmaceutical and Lifesciences companies</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="img-container d-flex justify-content-end">
+                  <img class="img-fluid" src="images/about-us.png" alt="about biotrains"/>
+                </div>
               </div>
             </div>
-          </nav>
-		<div class="main">
-			<h1 class="test">Hie test</h1>
+          </div>
+        </section>
 
-            <h1 class="text-3xl font-bold underline">
-                Hello world!
-              </h1>
-		</div>
-	</body>
+        <section class="what-we-do mt-5 mb-10 pt-8 pb-8 bg-grey">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-sm-5 offset-md-1 order-md-2 d-flex align-items-center">
+                <div class="content-container">
+                  <h2 class="sectionHeader modifier-header pb-4">Specialist In Business Lifesciences Is Our DNA</h2>
+                  <p class="sectionPara mb-3">Biotrains  povides services to support our clients
+                    build business relationship, provides insights and uncover  marketing opportunties to grow. </p>
+                    <p class="sectionPara mb-3">We specialise in Life Sciences Pharmaceuticals, Biotechnology, Healthcare and Medical Device Industry.  </p>
+                      
+                </div>
+              </div>
+              <div class="col-sm-6 d-flex align-items-center order-md-1 section-bg-gradient">
+                <div class="row">
+                  <div class="col">
+                    <img src="images/events.png" class="img-fluid" />
+                  </div>
+                  <div class="col mt-7">
+                    <img src="images/events.png" class="img-fluid" />
+                  </div>
+                  <div class="col">
+                    <img src="images/events.png" class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+     
+ 	</body>
 </html>

@@ -1,31 +1,34 @@
 // COLORS
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-
-$color-secondary-light: #ffb900;
-$color-secondary-dark: #ff7730;
-
-$color-tertiary-light: #2998ff;
-$color-tertiary-dark: #5643fa;
-
-$color-grey-light-1: #f7f7f7;
-$color-grey-light-2: #eee;
-
-$color-grey-dark: #777;
-$color-grey-dark-2: #999;
-$color-grey-dark-3: #333;
+$color-primary: #FFBC00;
+$color-secondary: #164C04;
 
 $color-white: #fff;
-$color-black: #000;
+$color-black: #333333;
+
+$bg-grey: #EFEEE5;
+
+$bold: 700;
+
 
 
 // FONT
 $default-font-size: 1.6rem;
 
+//     $custom-spacers: (
+//         6: $spacer * 4,      //64px
+//         7: $spacer * 5,      //80px
+//         8: $spacer * 6.25,   //100px
+//         9: $spacer * 7.5,    //120px
+//         10: $spacer * 9.375  //150px
+//     );
 
-// GRID
-$grid-width: 114rem;
-$gutter-vertical: 8rem;
-$gutter-vertical-small: 6rem;
-$gutter-horizontal: 6rem;
+// $spacers: map-merge($spacers, $custom-spacers);
+
+
+$spacer: 1rem;
+$spacers:(
+    0:0
+);
+@for $i from 1 through 20{
+    $spacers: map-merge($spacers, ($i:($i*$spacer)) );
+}
