@@ -13685,6 +13685,8 @@ body {
   font-size: 4.8rem;
   line-height: 5.8rem;
   font-weight: 700; }
+  .sectionHeader.spanModifierGreen span {
+    color: #164C04; }
 
 .sectionPara {
   font-size: 2.4rem;
@@ -13705,3 +13707,43 @@ body {
 
 .section-bg-gradient {
   z-index: 1; }
+
+.ourPartners__images img {
+  align-self: center; }
+
+/*  Counter Section  */
+#counter .count {
+  padding: 2rem;
+  background: #ffbc00a8;
+  color: #fff;
+  text-align: center; }
+  #counter .count h4, #counter .count .h4 {
+    color: #fff;
+    margin-top: 0; }
+  #counter .count .fa {
+    font-size: 4rem;
+    display: block;
+    color: #fff; }
+
+#counter .number {
+  font-size: 6rem;
+  font-weight: 700;
+  margin: 0;
+  line-height: 7rem; }
+
+.bigSectionHeader {
+  font-size: 6rem;
+  padding: 5rem 20rem;
+  text-transform: uppercase;
+  color: #FFBC00;
+  font-weight: 700; }
+
+.underline {
+  border-bottom: solid 1px #fff; }
+
+.counter {
+  background-image: url("../images/stats-parallax.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; }
