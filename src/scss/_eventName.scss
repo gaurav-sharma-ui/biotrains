@@ -1,0 +1,19 @@
+.eventName{
+    color: $color-black;
+
+    &__image{
+        max-height: 20rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__brandLogo{
+        width: 16rem;
+        margin: 1rem 0;
+    }
+
+    &__title{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+}
