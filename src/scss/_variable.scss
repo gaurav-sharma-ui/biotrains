@@ -11,6 +11,14 @@ $bg-grey: #EFEEE5;
 $bold: 700;
 
 
+@font-face {
+    font-family: HeroNew-Regular;
+    src: url(../fonts/HeroNewRegular.woff);
+  }
+
+/* FONT FAMILY */
+$hero-regular: HeroNew-Regular;
+
 
 // FONT
 $default-font-size: 1.6rem;
@@ -33,3 +41,9 @@ $spacers:(
 @for $i from 1 through 20{
     $spacers: map-merge($spacers, ($i:($i*$spacer)) );
 }
+
+
+    
+  body{
+      font-family: $hero-regular !important;
+  }
