@@ -13694,16 +13694,17 @@ body {
   overflow: hidden;
   position: relative; }
   .full-video__content {
-    max-width: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
     .full-video__content h1, .full-video__content .h1 {
-      font-size: 12rem;
-      line-height: 12rem;
+      font-size: 7.5rem;
+      line-height: 8rem;
       font-weight: bolder;
-      color: #FFBC00; }
+      color: #FFBC00;
+      letter-spacing: 1px;
+      text-align: center; }
   .full-video .embed-responsive:after {
     content: '';
     background: #000;
@@ -13715,15 +13716,15 @@ body {
     opacity: 0.4; }
 
 .sectionHeader {
-  font-size: 4.8rem;
-  line-height: 5.8rem;
+  font-size: 4rem;
+  line-height: 5rem;
   font-weight: 700; }
   .sectionHeader.spanModifierGreen span {
     color: #164C04; }
 
 .sectionPara {
-  font-size: 2.4rem;
-  line-height: 3.2rem; }
+  font-size: 2rem;
+  line-height: 3rem; }
 
 .bg-grey {
   background-color: #EFEEE5;
@@ -13765,7 +13766,8 @@ body {
   line-height: 7rem; }
 
 .bigSectionHeader {
-  font-size: 6rem;
+  font-size: 5rem;
+  line-height: 7rem;
   padding: 5rem 20rem;
   text-transform: uppercase;
   color: #FFBC00;
@@ -13780,6 +13782,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; }
+
+.mx-w55 {
+  max-width: 55%;
+  margin: 0 auto; }
 
 .eventName {
   color: #333333; }
