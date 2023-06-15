@@ -13788,14 +13788,34 @@ body {
   margin: 0 auto; }
 
 .eventName {
-  color: #333333; }
+  color: #333333;
+  background-color: #363636 !important; }
+  .eventName .container {
+    margin-top: -300px !important; }
   .eventName__image {
-    max-height: 20rem;
+    height: 230px;
+    border-radius: 5px;
+    background-color: #fff;
     position: relative;
-    overflow: hidden; }
-  .eventName__brandLogo {
-    width: 16rem;
-    margin: 1rem 0; }
-  .eventName__title {
-    font-size: 1.2rem;
-    line-height: 1.5rem; }
+    overflow: hidden;
+    transition: .3s all ease-in-out;
+    box-shadow: 0px 15px 45px -9px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    padding: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px; }
+    .eventName__image img {
+      width: 260px; }
+    .eventName__image:hover {
+      box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.06); }
+
+.brand-title {
+  padding-top: 100px !important;
+  padding-bottom: 270px !important;
+  background-color: #FFBC00 !important; }
+
+.brand-title h2, .brand-title .h2 {
+  color: #000 !important; }
