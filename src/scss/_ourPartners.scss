@@ -8,10 +8,7 @@
 
 /*  Counter Section  */
 
-#counter {   
     .count {
-        padding: 2rem;
-        background: $color-primary-lite;
          color: #fff;
         text-align: center;
         h4 {
@@ -30,12 +27,11 @@
         margin: 0;
         line-height: 7rem;
     }
-}
 
 .bigSectionHeader{
     font-size: 5rem;
     line-height: 7rem;
-    padding: 5rem 20rem;
+    // padding: 5rem 20rem;
     text-transform: uppercase;
     color: $color-primary;
     font-weight: $bold;

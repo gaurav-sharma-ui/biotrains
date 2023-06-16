@@ -10,8 +10,8 @@
     }
 
     &__image{
-            height: 230px;
-            border-radius: 5px;
+            height: 290px;
+            // border-radius: 5px;
             background-color: #fff;
             position: relative;
             overflow: hidden;
@@ -23,20 +23,28 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 50px;
+            // margin-bottom: 50px;
+            padding: 60px 5.5% 60px 5.5%;
+            border-right: 1px solid rgba(242,242,242,1);
+            border-bottom: 1px solid rgba(242,242,242,1);
 
             img{
                 width: 260px;
+                transition: .5s all ease-in-out;
             }
         &:hover{
             box-shadow: 0 1px 1px 1px rgba(0,0,0,.06);
         }
         }
+
+        .col{
+            padding: 0;
+        }
 }
 
 .brand-title{
-    padding-top: 100px !important;
-    padding-bottom: 270px !important;
+    padding-top: 30px !important;
+    padding-bottom: 230px !important;
     background-color: $color-primary !important;
 }
 
@@ -44,4 +52,26 @@
     h2{
         color: #000 !important;
     }
+}
+
+// .eventName__image:before {
+//     content: '';
+//     width: 100%;
+//     height: 100%;
+//     position: absolute;
+//     left: 0;
+//     top: 0;
+//     background-color: $color-secondary !important;
+//     opacity: 0;
+//     transition: .3s all ease-in-out;
+// }
+
+// .eventName__image:hover:before {
+//     opacity: 1;
+// }
+
+.eventName__image:hover img {
+    // filter: brightness(0) invert(1);
+    // z-index: 1;
+    scale: 1.1;
 }

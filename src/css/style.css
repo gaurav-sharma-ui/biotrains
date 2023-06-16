@@ -13742,24 +13742,25 @@ body {
 .section-bg-gradient {
   z-index: 1; }
 
+.color-white {
+  color: #fff; }
+
 .ourPartners__images img {
   align-self: center; }
 
 /*  Counter Section  */
-#counter .count {
-  padding: 2rem;
-  background: #ffbc00a8;
+.count {
   color: #fff;
   text-align: center; }
-  #counter .count h4, #counter .count .h4 {
+  .count h4, .count .h4 {
     color: #fff;
     margin-top: 0; }
-  #counter .count .fa {
+  .count .fa {
     font-size: 4rem;
     display: block;
     color: #fff; }
 
-#counter .number {
+.number {
   font-size: 6rem;
   font-weight: 700;
   margin: 0;
@@ -13768,7 +13769,6 @@ body {
 .bigSectionHeader {
   font-size: 5rem;
   line-height: 7rem;
-  padding: 5rem 20rem;
   text-transform: uppercase;
   color: #FFBC00;
   font-weight: 700; }
@@ -13793,8 +13793,7 @@ body {
   .eventName .container {
     margin-top: -300px !important; }
   .eventName__image {
-    height: 230px;
-    border-radius: 5px;
+    height: 290px;
     background-color: #fff;
     position: relative;
     overflow: hidden;
@@ -13806,16 +13805,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px; }
+    padding: 60px 5.5% 60px 5.5%;
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2; }
     .eventName__image img {
-      width: 260px; }
+      width: 260px;
+      transition: .5s all ease-in-out; }
     .eventName__image:hover {
       box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.06); }
+  .eventName .col {
+    padding: 0; }
 
 .brand-title {
-  padding-top: 100px !important;
-  padding-bottom: 270px !important;
+  padding-top: 30px !important;
+  padding-bottom: 230px !important;
   background-color: #FFBC00 !important; }
 
 .brand-title h2, .brand-title .h2 {
   color: #000 !important; }
+
+.eventName__image:hover img {
+  scale: 1.1; }
