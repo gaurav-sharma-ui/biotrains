@@ -2,6 +2,9 @@
     &__images{
         img{
             align-self: center;
+            padding: 21px;
+            width: 16%;
+            margin-bottom: 10px;
         }
     }
 }
@@ -35,6 +38,11 @@
     text-transform: uppercase;
     color: $color-primary;
     font-weight: $bold;
+    &.spanModifierGreen{
+        span{
+            color: $color-secondary;
+        }
+    }
 }
 
 .underline{
@@ -49,7 +57,9 @@
     background-position: center;
 }
 
-.mx-w55{
-    max-width: 55%;
-    margin: 0 auto;
+.mx-w75{
+    max-width: 75%;
 }
+.color-black{
+    color: $color-black;
+  }
