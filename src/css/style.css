@@ -13749,11 +13749,13 @@ body {
   .what-we-do .col .sectionHeader {
     font-size: 3rem; }
 
-.ourPartners__images img {
-  align-self: center;
-  padding: 21px;
-  width: 16%;
-  margin-bottom: 10px; }
+.ourPartners {
+  background-color: #f4f4f4; }
+  .ourPartners__images img {
+    align-self: center;
+    padding: 21px;
+    width: 16%;
+    margin-bottom: 10px; }
 
 /*  Counter Section  */
 .count {
@@ -13797,6 +13799,42 @@ body {
 
 .color-black {
   color: #333333; }
+
+.bg-white {
+  background-color: #fff; }
+
+.testimonials__wrapper {
+  padding: 50px;
+  border-radius: 10px; }
+
+.testimonials__child img {
+  max-width: 270px;
+  /* background: #ececec; */
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 2px #999; */
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.05); }
+
+.testimonials__child p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px; }
+
+ul.custom-arrows {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style: none; }
+  ul.custom-arrows li {
+    margin: 10px;
+    cursor: pointer; }
+  ul.custom-arrows img {
+    width: 30px; }
 
 .eventName {
   color: #333333;
