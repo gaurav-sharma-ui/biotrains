@@ -13691,7 +13691,7 @@ body {
     text-indent: 0; } }
 
 .full-video {
-  height: 70vh;
+  height: 90vh;
   overflow: hidden;
   position: relative; }
   .full-video__content {
