@@ -6,7 +6,16 @@ $('.slick').slick({
     autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 4,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
   });
 
   $('.testimonials').slick({
@@ -25,5 +34,14 @@ $('.slick').slick({
     autoplay: true,
     autoplaySpeed: 4000,
     slidesToShow: 6,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    responsive: [
+        {
+          breakpoint: 767,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
   })

@@ -1,7 +1,21 @@
+.navbar-brand{
+    img{
+        padding: 10px;
+
+        @include media-breakpoint-down(sm) {
+            max-width: 190px;
+          }
+    }
+}
+
 .sectionHeader{
     font-size: 4rem;
     line-height: 5rem;
     font-weight: $bold;
+    @include media-breakpoint-down(sm) {
+        font-size: 3rem;
+        line-height: 4rem;
+      }
 
     &.spanModifierGreen{
         span{
@@ -14,4 +28,28 @@
     font-size: 2rem;
     line-height: 3rem;
     // padding: 0px 200px 0px 50px;
+    @include media-breakpoint-down(sm) {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+      }
 }
+
+.about-biotrain{
+    .px-5{
+        @include media-breakpoint-down(sm) {
+            padding: 0 15px !important;
+          }
+    }
+    .pb-5{
+        @include media-breakpoint-down(sm) {
+            padding-bottom: 15px !important;
+          }
+    }
+    .img-container{
+        @include media-breakpoint-down(sm) {
+            margin-top: 30px !important;
+            max-width: 250px;
+            margin: 0 auto;
+          }
+        }
+    }
