@@ -13746,7 +13746,9 @@ body {
       font-size: 3rem;
       line-height: 4rem; } }
   .sectionHeader.spanModifierGreen span {
-    color: #164C04; }
+    color: #164C04;
+    display: block;
+    font-size: 24px; }
 
 .sectionPara {
   font-size: 2rem;
@@ -13802,6 +13804,10 @@ body {
     padding: 21px;
     width: 16%;
     margin-bottom: 10px; }
+  .ourPartners__images .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 /*  Counter Section  */
 .count {
@@ -13823,12 +13829,14 @@ body {
 
 .bigSectionHeader {
   font-size: 5rem;
-  line-height: 7rem;
+  line-height: 6rem;
   text-transform: uppercase;
   color: #FFBC00;
   font-weight: 700; }
   .bigSectionHeader.spanModifierGreen span {
-    color: #164C04; }
+    color: #164C04;
+    display: block;
+    font-size: 24px; }
 
 .underline {
   border-bottom: solid 1px #fff; }
@@ -14160,8 +14168,11 @@ ul.custom-arrows {
     display: flex;
     flex-wrap: wrap; }
     .footer__projects img {
-      max-width: 120px;
-      margin-bottom: 10px; }
+      width: 45%;
+      background: #fff;
+      margin-bottom: 20px;
+      padding: 10px;
+      margin-left: 10px; }
 
 @media (max-width: 575.98px) {
   .pd-sm-m {
@@ -14281,3 +14292,8 @@ ul.custom-arrows {
   ul.navbar-nav li a {
     font-size: 16px;
     line-height: 20px; } }
+
+@media (max-width: 575.98px) {
+  .spanModifierGreen span {
+    font-size: 16px;
+    display: block; } }
