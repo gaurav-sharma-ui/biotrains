@@ -1,0 +1,43 @@
+.sectionHeadeBanner {
+	&__wrapper {
+		height: 50vh;
+		position: relative;
+		overflow: hidden;
+		img {
+			height: 50vh;
+			width: 100%;
+			object-fit: cover;
+		}
+		&:before {
+			content: "";
+			background: $color-primary;
+			width: 60%;
+			position: absolute;
+			left: -40px;
+			top: -140px;
+			height: 800px;
+			transform: rotate(-24deg);
+		}
+		&:after {
+			content: "";
+			background: $color-primary;
+			width: 100%;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			height: 100%;
+			opacity: 0.5;
+		}
+	}
+	&__header {
+		font-size: 4rem;
+		line-height: 5rem;
+		font-weight: $bold;
+		position: absolute;
+		top: 40%;
+		left: 10%;
+		width: 40%;
+		color: $color-black;
+		z-index: 1;
+	}
+}

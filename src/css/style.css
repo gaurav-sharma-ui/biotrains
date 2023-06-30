@@ -14174,6 +14174,61 @@ ul.custom-arrows {
       padding: 10px;
       margin-left: 10px; }
 
+.sectionHeadeBanner__wrapper {
+  height: 50vh;
+  position: relative;
+  overflow: hidden; }
+  .sectionHeadeBanner__wrapper img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover; }
+  .sectionHeadeBanner__wrapper:before {
+    content: "";
+    background: #FFBC00;
+    width: 60%;
+    position: absolute;
+    left: -40px;
+    top: -140px;
+    height: 800px;
+    transform: rotate(-24deg); }
+  .sectionHeadeBanner__wrapper:after {
+    content: "";
+    background: #FFBC00;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    opacity: 0.5; }
+
+.sectionHeadeBanner__header {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: 700;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  width: 40%;
+  color: #333333;
+  z-index: 1; }
+
+.sectionCustomBtn__green {
+  font-size: 1.6rem;
+  padding: 1rem 3rem;
+  border-radius: 0;
+  line-height: 2rem;
+  border: solid 2px #FFBC00;
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: $color-black;
+  --bs-btn-bg: $color-primary;
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #e6a900;
+  --bs-btn-hover-border-color: #e6a900;
+  --bs-btn-focus-shadow-rgb: $color-primary;
+  --bs-btn-active-color: $color-primary;
+  --bs-btn-active-bg: #cc9600;
+  --bs-btn-active-border-color: #cc9600; }
+
 @media (max-width: 575.98px) {
   .pd-sm-m {
     padding: 0 !important;
