@@ -14229,6 +14229,82 @@ ul.custom-arrows {
   --bs-btn-active-bg: #cc9600;
   --bs-btn-active-border-color: #cc9600; }
 
+.ourServices__wrapper {
+  background-color: #738dfc1c;
+  padding: 30px;
+  border-radius: 8px 8px 8px 8px;
+  transition: 0.5s all ease; }
+  .ourServices__wrapper h3, .ourServices__wrapper .h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 10px 0px; }
+  .ourServices__wrapper p {
+    padding: 0 40px;
+    text-align: center; }
+  .ourServices__wrapper:hover {
+    cursor: pointer;
+    background-color: #ffffff00;
+    box-shadow: 0px 20px 34px 0px rgba(0, 0, 0, 0.1); }
+
+.ourEvents__image {
+  padding: 0;
+  position: relative;
+  border-radius: 0px 400px 400px 0px;
+  background-image: url("../images/brands/pharmig.jpg");
+  height: 350px;
+  background-size: contain; }
+
+.ourEvents__bg {
+  border-radius: 0px 400px 400px 0px; }
+
+.ourEvents__hero {
+  position: relative;
+  max-width: 250px;
+  top: 50%;
+  left: 80%;
+  border: 5px solid #164C04;
+  transform: translate(-50%, -50%); }
+
+.ourEvents h2, .ourEvents .h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-bottom: 3rem; }
+
+.ourEvents p {
+  font-size: 2rem;
+  line-height: 3rem; }
+
+.ourEvents__slick img {
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: solid 2px #164C04;
+  margin: 0 5px; }
+
+.ourEvents .right__side .ourEvents__image {
+  border-radius: 400px 0px 0px 400px; }
+
+.ourEvents .right__side .ourEvents__hero {
+  top: 50%;
+  right: 0;
+  left: 70px; }
+
+.customAccordian {
+  padding-right: 50px; }
+  .customAccordian .accordion-header button {
+    font-size: 1.8rem; }
+
+.accordion-button:not(.collapsed) {
+  background-color: #164C04;
+  color: #fff; }
+
+.accordion-button:focus {
+  border-color: #164C04; }
+
+.accordion-body {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 20px 10px; }
+
 @media (max-width: 575.98px) {
   .pd-sm-m {
     padding: 0 !important;
