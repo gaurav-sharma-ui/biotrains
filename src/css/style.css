@@ -14146,7 +14146,7 @@ ul.custom-arrows {
     font-size: 2.2rem;
     line-height: 2.2rem;
     margin-bottom: 20px;
-    color: #fff; }
+    color: #fff !important; }
   .footer p {
     font-size: 14px;
     padding-right: 10px;

@@ -1,51 +1,50 @@
-.footer{
-    background-color: $color-secondary;
-    padding: 80px 0;
+.footer {
+	background-color: $color-secondary;
+	padding: 80px 0;
 
-    h3{
-        font-size: 2.2rem;
-        line-height: 2.2rem;
-        margin-bottom: 20px;
-        color:$color-white
+	h3 {
+		font-size: 2.2rem;
+		line-height: 2.2rem;
+		margin-bottom: 20px;
+		color: $color-white !important;
+	}
 
-    }
+	p {
+		font-size: 14px;
+		padding-right: 10px;
+		color: $color-white;
+	}
 
-    p{
-        font-size: 14px;
-        padding-right: 10px;
-        color: $color-white;
-    }
- 
-    &__contact{
-        li{
-            font-size: 14px;
-            line-height: 18px;
-            margin-bottom: 5px;
-            color: $color-white;
-        }
-    }
-    &__social{
-        ul{
-            display: flex;
-            padding: 0;
-            li{
-                margin-right: 15px;
-                list-style: none;
-                img{
-                    max-width: 30px;
-                }
-            }
-        }
-    }
-    &__projects{
-        display: flex;
-        flex-wrap: wrap;
-        img{
-            width: 45%;
-            background: #fff;
-            margin-bottom: 20px;
-            padding: 10px;
-            margin-left: 10px;
-        }
-    }
+	&__contact {
+		li {
+			font-size: 14px;
+			line-height: 18px;
+			margin-bottom: 5px;
+			color: $color-white;
+		}
+	}
+	&__social {
+		ul {
+			display: flex;
+			padding: 0;
+			li {
+				margin-right: 15px;
+				list-style: none;
+				img {
+					max-width: 30px;
+				}
+			}
+		}
+	}
+	&__projects {
+		display: flex;
+		flex-wrap: wrap;
+		img {
+			width: 45%;
+			background: #fff;
+			margin-bottom: 20px;
+			padding: 10px;
+			margin-left: 10px;
+		}
+	}
 }
