@@ -1,24 +1,26 @@
-.navbar{
-    &-brand {
-        img{
-            max-width: 240px;
-        }
-    }
+.navbar {
+	&-brand {
+		img {
+			max-width: 240px;
+		}
+	}
 
-    &-nav{
-        a{
-            font-size: 1.8rem;
-            line-height: 2.1rem;
-            margin-right: 2rem;
-        }
-        li{
-            &:last-child
-            {
-                a{
-                    margin-right: 0;
-                }
-            }
-        }
-
-    }
+	&-nav {
+		a {
+			font-size: 1.8rem;
+			line-height: 2.1rem;
+			margin-right: 2rem;
+			&.active {
+				font-weight: 700;
+				color: $color-primary !important;
+			}
+		}
+		li {
+			&:last-child {
+				a {
+					margin-right: 0;
+				}
+			}
+		}
+	}
 }

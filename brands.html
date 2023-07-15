@@ -27,7 +27,7 @@
 			referrerpolicy="no-referrer"
 		></script>
 		<script type="module" src="src/js/bootstrap.bundle.min.js"></script>
-		<script type="module" src="src/js/custom.js"></script>
+		<script type="module" defer src="src/js/custom.js"></script>
 
 		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
@@ -38,7 +38,7 @@
 		<header>
 			<nav class="navbar navbar-expand-lg bg-body-tertiary">
 				<div class="container">
-					<a class="navbar-brand" href="index">
+					<a class="navbar-brand" href="index.html">
 						<img src="src/images/biotrains-logo.png" alt="biotrains logo" />
 					</a>
 					<button
@@ -58,17 +58,15 @@
 					>
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<!-- <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Events</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Career</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>  -->
+								<a class="nav-link active" aria-current="page" href="index.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="brands.html">Brands</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="services.html">Services</a>
 							</li>
 						</ul>
 					</div>
@@ -80,9 +78,7 @@
 				<div class="container-fluid p-0">
 					<div class="sectionHeadeBanner__wrapper">
 						<img src="src/images/brands/brand-banner.jpg" class="img-fluid" />
-						<h1 class="sectionHeadeBanner__header">
-							Curating Events To Learn , Network and Grow
-						</h1>
+						<h1 class="sectionHeadeBanner__header">Our Brands</h1>
 					</div>
 				</div>
 			</section>
@@ -90,8 +86,16 @@
 			<section class="pt-10 pb-5">
 				<div class="container">
 					<div class="row">
-						<h2 class="bigSectionHeader mb-5">Our Brandss</h2>
+						<div class="col-12 text-center">
+							<h2
+								class="bigSectionHeader spanModifierGreen text-center mb-8 pd-sm-m"
+							>
+								Curating Events To Learn <br /><span>Network and Grow.</span>
+							</h2>
+						</div>
 					</div>
+				</div>
+				<div class="container">
 					<div class="row">
 						<div class="col">
 							<a class="eventName__wrapper" href="#">

@@ -63,3 +63,14 @@ $('.ourEvents__slick').slick({
     }
   ]
 })
+
+$(function () {
+  var current = location.pathname.split('/')[1];
+  $('.navbar-nav li a').each(function () {
+    var $this = $(this);
+    if ($this.attr('href') === current) {
+      $('.navbar-nav li a').removeClass('active');
+      $this.addClass('active');
+    }
+  })
+})

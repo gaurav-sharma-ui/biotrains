@@ -13585,6 +13585,9 @@ body {
   font-size: 1.8rem;
   line-height: 2.1rem;
   margin-right: 2rem; }
+  .navbar-nav a.active {
+    font-weight: 700;
+    color: #FFBC00 !important; }
 
 .navbar-nav li:last-child a {
   margin-right: 0; }
@@ -14202,8 +14205,8 @@ ul.custom-arrows {
     opacity: 0.5; }
 
 .sectionHeadeBanner__header {
-  font-size: 4rem;
-  line-height: 5rem;
+  font-size: 6.5rem;
+  line-height: 7rem;
   font-weight: 700;
   position: absolute;
   top: 40%;
@@ -14291,14 +14294,22 @@ ul.custom-arrows {
 .customAccordian {
   padding-right: 50px; }
   .customAccordian .accordion-header button {
-    font-size: 1.8rem; }
+    font-size: 2rem; }
+    .customAccordian .accordion-header button[aria-expanded="true"] {
+      color: #FFBC00; }
+  .customAccordian .accordion-button {
+    padding: 33px 30px 14px 10px;
+    transition: color 0.2s ease-out, background-color 0.2s ease-out; }
+    .customAccordian .accordion-button:hover {
+      color: #FFBC00; }
 
 .accordion-button:not(.collapsed) {
-  background-color: #164C04;
-  color: #fff; }
+  color: #FFBC00;
+  background: transparent; }
 
 .accordion-button:focus {
-  border-color: #164C04; }
+  border-color: #164C04;
+  box-shadow: none; }
 
 .accordion-body {
   font-size: 16px;

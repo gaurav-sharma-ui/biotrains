@@ -76,17 +76,29 @@
 	padding-right: 50px;
 	.accordion-header {
 		button {
-			font-size: 1.8rem;
+			font-size: 2rem;
+
+			&[aria-expanded="true"] {
+				color: $color-primary;
+			}
+		}
+	}
+	.accordion-button {
+		padding: 33px 30px 14px 10px;
+		transition: color 0.2s ease-out, background-color 0.2s ease-out;
+		&:hover {
+			color: $color-primary;
 		}
 	}
 }
 .accordion-button:not(.collapsed) {
-	background-color: $color-secondary;
-	color: $color-white;
+	color: $color-primary;
+	background: transparent;
 }
 
 .accordion-button:focus {
 	border-color: $color-secondary;
+	box-shadow: none;
 }
 
 .accordion-body {
