@@ -1,121 +1,121 @@
-.ourPartners{
-    &__images{
-        img{
-            align-self: center;
-            padding: 21px;
-            width: 16%;
-            margin-bottom: 10px;
-        }
-        .slick-track{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-    background-color: #f4f4f4;
+.ourPartners {
+	&__images {
+		img {
+			align-self: center;
+			padding: 21px;
+			width: 16%;
+			margin-bottom: 10px;
+		}
+		.slick-track {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+	}
+	background-color: #f4f4f4;
 }
 
 /*  Counter Section  */
 
-    .count {
-         color: #fff;
-        text-align: center;
-        h4 {
-            color: #fff;
-            margin-top: 0;
-        }
-        .fa {
-            font-size: 4rem;
-            display: block;
-            color: #fff;
-        }
-    }
-    .number {
-        font-size: 6rem;
-        font-weight: 700;
-        margin: 0;
-        line-height: 7rem;
-    }
-
-.bigSectionHeader{
-    font-size: 5rem;
-    line-height: 6rem;
-    // padding: 5rem 20rem;
-    text-transform: uppercase;
-    color: $color-primary;
-    font-weight: $bold;
-    &.spanModifierGreen{
-        span{
-            color: $color-secondary;
-            display: block;
-            font-size: 24px;
-        }
-    }
+.count {
+	color: #fff;
+	text-align: center;
+	h4 {
+		color: #fff;
+		margin-top: 0;
+	}
+	.fa {
+		font-size: 4rem;
+		display: block;
+		color: #fff;
+	}
+}
+.number {
+	font-size: 6rem;
+	font-weight: 700;
+	margin: 0;
+	line-height: 7rem;
 }
 
-.underline{
-    border-bottom: solid 1px #fff;
+.bigSectionHeader {
+	font-size: 5rem;
+	line-height: 6rem;
+	// padding: 5rem 20rem;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: $bold;
+	&.spanModifierGreen {
+		span {
+			color: $color-secondary;
+			display: block;
+			font-size: 24px;
+		}
+	}
 }
 
-.counter{
-    background-image: url('../images/stats-parallax.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+.underline {
+	border-bottom: solid 1px #fff;
 }
 
-.mx-w75{
-    max-width: 75%;
+.counter {
+	background-image: url("../images/stats-parallax.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
-.color-black{
-    color: $color-black;
-  }
 
-.bg-white{
-    background-color: $background-white;
+.mx-w75 {
+	max-width: 75%;
 }
-.testimonials{
-    &__wrapper{
-        padding: 50px;
-        // background-color: #ffffff;
-        border-radius: 10px;   
-    }
+.color-black {
+	color: $color-black;
+}
 
-    &__child{
-        img{
-            max-width: 270px;
-            /* background: #ececec; */
-            padding: 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            /* border: solid 2px #999; */
-            margin-bottom: 30px;
-            border-radius: 5px;
-            box-shadow: 0 5px 20px rgba(0,0,0,.05), 0 5px 20px rgba(0,0,0,.05);
-        }
-        p{
-            text-align: center;
-            font-size: 14px;
-            line-height: 22px;
-        }
+.bg-white {
+	background-color: $background-white;
 }
+.testimonials {
+	&__wrapper {
+		padding: 50px;
+		// background-color: #ffffff;
+		border-radius: 10px;
+	}
+
+	&__child {
+		img {
+			max-width: 270px;
+			/* background: #ececec; */
+			padding: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/* border: solid 2px #999; */
+			margin-bottom: 30px;
+			border-radius: 5px;
+			box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.05);
+		}
+		p {
+			text-align: center;
+			font-size: 14px;
+			line-height: 22px;
+		}
+	}
 }
 
 ul.custom-arrows {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-    list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	list-style: none;
 
-    li{
-        margin: 10px;
-        cursor: pointer;
-    }
+	li {
+		margin: 10px;
+		cursor: pointer;
+	}
 
-    img{
-        width: 30px;
-    }
+	img {
+		width: 30px;
+	}
 }
