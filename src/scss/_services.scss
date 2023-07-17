@@ -106,3 +106,19 @@
 	line-height: 30px;
 	padding: 20px 10px;
 }
+
+.bg-opacity-15 {
+	--bs-bg-opacity: 0.15;
+}
+
+.download-bro {
+	width: 40px;
+}
+
+.btn-download {
+	border: solid 4px $color-secondary;
+	transition: all 0.2s;
+	&:hover {
+		transform: scale(1.05);
+	}
+}

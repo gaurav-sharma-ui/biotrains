@@ -14318,6 +14318,18 @@ ul.custom-arrows {
   line-height: 30px;
   padding: 20px 10px; }
 
+.bg-opacity-15 {
+  --bs-bg-opacity: 0.15; }
+
+.download-bro {
+  width: 40px; }
+
+.btn-download {
+  border: solid 4px #164C04;
+  transition: all 0.2s; }
+  .btn-download:hover {
+    transform: scale(1.05); }
+
 @media (max-width: 575.98px) {
   .pd-sm-m {
     padding: 0 !important;
