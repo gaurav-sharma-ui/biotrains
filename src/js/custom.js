@@ -64,6 +64,24 @@ $('.ourEvents__slick').slick({
   ]
 })
 
+$('.values-slider').slick({
+  infinite: true,
+  arrows: false,
+  autoplay: true,
+  autoplaySpeed: 3000,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
+
 $(function () {
   var current = location.pathname.split('/')[1];
   $('.navbar-nav li a').each(function () {

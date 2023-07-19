@@ -13842,7 +13842,8 @@ body {
     color: #000;
     display: block;
     font-size: 24px;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    margin-top: -15px; }
 
 .underline {
   border-bottom: solid 1px #fff; }
