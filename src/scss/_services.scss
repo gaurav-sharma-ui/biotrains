@@ -122,3 +122,23 @@
 		transform: scale(1.05);
 	}
 }
+
+.fullColor-section {
+	background-color: $color-primary;
+	transition: all 0.2s;
+	&:hover {
+		filter: brightness(85%);
+	}
+	a {
+		text-decoration: none;
+		color: #000;
+	}
+	h3 {
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+		font-size: 3.5rem;
+	}
+}

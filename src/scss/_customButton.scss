@@ -1,15 +1,17 @@
 .sectionCustomBtn {
 	&__green {
-		font-size: 1.6rem;
-		padding: 1rem 3rem;
-		border-radius: 0;
+		padding: 19px 41px;
+		border-radius: 40px;
+		background-color: $color-primary;
+		color: #000;
+		font-size: 1.3rem;
 		line-height: 2rem;
 		border: solid 2px $color-primary;
 
 		--bs-btn-font-weight: 600;
 		--bs-btn-color: $color-black;
 		--bs-btn-bg: $color-primary;
-		--bs-btn-hover-color: var(--bs-white);
+		--bs-btn-hover-color: #000;
 		--bs-btn-hover-bg: #{shade-color($color-primary, 10%)};
 		--bs-btn-hover-border-color: #{shade-color($color-primary, 10%)};
 		--bs-btn-focus-shadow-rgb: $color-primary;
