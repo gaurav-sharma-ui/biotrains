@@ -1,57 +1,79 @@
-.navbar-brand{
-    img{
-        padding: 10px;
+.navbar-brand {
+	img {
+		padding: 10px;
 
-        @include media-breakpoint-down(sm) {
-            max-width: 190px;
-          }
-    }
+		@include media-breakpoint-down(sm) {
+			max-width: 190px;
+		}
+	}
 }
 
-.sectionHeader{
-    font-size: 4rem;
-    line-height: 5rem;
-    font-weight: $bold;
-    @include media-breakpoint-down(sm) {
-        font-size: 3rem;
-        line-height: 4rem;
-      }
+.sectionHeader {
+	font-size: 4rem;
+	line-height: 5rem;
+	font-weight: $bold;
+	@include media-breakpoint-down(sm) {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
 
-    &.spanModifierGreen{
-        span{
-            color: $color-secondary;
-            display: block;
-            font-size: 24px;
-        }
-    }
+	&.spanModifierGreen {
+		span {
+			color: $color-secondary;
+			display: block;
+			font-size: 24px;
+		}
+	}
 }
 
-.sectionPara{
-    font-size: 2rem;
-    line-height: 3rem;
-    // padding: 0px 200px 0px 50px;
-    @include media-breakpoint-down(sm) {
-        font-size: 1.6rem;
-        line-height: 2.2rem;
-      }
+.sectionPara {
+	font-size: 2rem;
+	line-height: 3rem;
+	// padding: 0px 200px 0px 50px;
+	@include media-breakpoint-down(sm) {
+		font-size: 1.6rem;
+		line-height: 2.2rem;
+	}
 }
 
-.about-biotrain{
-    .px-5{
-        @include media-breakpoint-down(sm) {
-            padding: 0 15px !important;
-          }
-    }
-    .pb-5{
-        @include media-breakpoint-down(sm) {
-            padding-bottom: 15px !important;
-          }
-    }
-    .img-container{
-        @include media-breakpoint-down(sm) {
-            margin-top: 30px !important;
-            max-width: 250px;
-            margin: 0 auto;
-          }
-        }
-    }
+.about-biotrain {
+	.px-5 {
+		@include media-breakpoint-down(sm) {
+			padding: 0 15px !important;
+		}
+	}
+	.pb-5 {
+		@include media-breakpoint-down(sm) {
+			padding-bottom: 15px !important;
+		}
+	}
+	.img-container {
+		@include media-breakpoint-down(sm) {
+			margin-top: 30px !important;
+			max-width: 250px;
+			margin: 0 auto;
+		}
+	}
+}
+
+.values-slider {
+	.eventName__image {
+		margin: 10px;
+		height: auto;
+		flex-direction: column;
+		align-items: center;
+		background-color: #fffcf0;
+		box-shadow: none;
+		h3 {
+			margin-top: 2rem;
+			font-size: 2rem;
+		}
+		img {
+			max-width: 200px;
+		}
+		p {
+			text-align: center;
+			font-size: 1rem;
+		}
+	}
+}
