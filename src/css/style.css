@@ -14208,9 +14208,9 @@ ul.custom-arrows {
   .sectionHeadeBanner__wrapper:before {
     content: "";
     background: #FFBC00;
-    width: 70%;
+    width: 50%;
     position: absolute;
-    left: 30px;
+    left: -40px;
     top: -140px;
     height: 800px;
     transform: rotate(-24deg); }
