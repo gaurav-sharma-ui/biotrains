@@ -14270,6 +14270,8 @@ ul.custom-arrows {
     cursor: pointer;
     background-color: #ffffff00;
     box-shadow: 0px 20px 34px 0px rgba(0, 0, 0, 0.1); }
+  .ourServices__wrapper img {
+    max-width: 90px; }
 
 .ourEvents__image {
   padding: 0;
