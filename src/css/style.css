@@ -14174,9 +14174,12 @@ ul.custom-arrows {
     font-size: 14px;
     padding-right: 10px;
     color: #fff; }
+  .footer__contact ul {
+    padding: 0;
+    list-style: none; }
   .footer__contact li {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 25px;
     margin-bottom: 5px;
     color: #fff; }
   .footer__social ul {
@@ -14190,12 +14193,14 @@ ul.custom-arrows {
   .footer__projects {
     display: flex;
     flex-wrap: wrap; }
-    .footer__projects img {
+    .footer__projects a {
       width: 45%;
       background: #fff;
       margin-bottom: 20px;
-      padding: 10px;
-      margin-left: 10px; }
+      padding: 10px; }
+
+.footer__projects a:nth-child(even) {
+  margin-left: 10px; }
 
 .sectionHeadeBanner__wrapper {
   height: 50vh;

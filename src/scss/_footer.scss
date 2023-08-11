@@ -16,9 +16,14 @@
 	}
 
 	&__contact {
+		ul {
+			padding: 0;
+			list-style: none;
+		}
+
 		li {
 			font-size: 14px;
-			line-height: 18px;
+			line-height: 25px;
 			margin-bottom: 5px;
 			color: $color-white;
 		}
@@ -39,12 +44,15 @@
 	&__projects {
 		display: flex;
 		flex-wrap: wrap;
-		img {
+		a {
 			width: 45%;
 			background: #fff;
 			margin-bottom: 20px;
 			padding: 10px;
-			margin-left: 10px;
 		}
 	}
+}
+
+.footer__projects a:nth-child(even) {
+	margin-left: 10px;
 }
